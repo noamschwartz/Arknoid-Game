@@ -1,0 +1,74 @@
+
+# Level 1
+# Goal
+
+
+START_LEVEL
+level_name: Goal
+ball_velocities:45,500
+background:image(background_images/soccer.jpg)
+paddle_speed:800
+paddle_width:50
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:350
+blocks_start_y:325
+row_height:50
+num_blocks:1
+START_BLOCKS
+-
+y
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# Bowling.
+
+
+START_LEVEL
+level_name: Bowling
+ball_velocities:300,400
+background:image(background_images/bowling.jpg)
+paddle_speed:500
+paddle_width:150
+block_definitions:definitions/bowling_block_definitions.txt
+blocks_start_x:200
+blocks_start_y:100
+row_height:20
+num_blocks:9
+START_BLOCKS
+-
+--G-G-G-G
+
+---r-r-r
+
+----p-p
+
+
+
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+# Golf
+
+START_LEVEL
+level_name: Golf
+ball_velocities:65,500
+background:image(background_images/golf.jpg)
+paddle_speed:700
+paddle_width:75
+block_definitions:definitions/golf_block_definitions.txt
+blocks_start_x:465
+blocks_start_y:475
+row_height:20
+num_blocks:1
+START_BLOCKS
+
+y
+
+
+
+END_BLOCKS
+END_LEVEL
